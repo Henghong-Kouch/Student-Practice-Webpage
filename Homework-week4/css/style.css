@@ -1,0 +1,136 @@
+/* Remove small default spacing */
+body{
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial;
+}
+
+
+/* Blue header */
+.header{
+    background-color: #4f8ddf;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+/* Small text */
+.header p{
+    font-size: 14px;
+}
+
+
+/* White section box */
+.box{
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* Normal image */
+.normal-image{
+    width: 300px;
+    border-radius: 8px;
+}
+
+
+/* Circle image */
+.circle-image{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+
+/* Oval image */
+.oval-image{
+    width: 300px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+
+/* Table design */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+/* Table border */
+table, th, td{
+    border: 1px solid lightgray;
+}
+
+
+/* Table spacing */
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Table header color */
+th{
+    background-color: #4f8ddf;
+    color: white;
+}
+
+
+/* Form width */
+.form-box{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Input spacing */
+.input-box{
+    margin-bottom: 15px;
+}
+
+
+/* Label style */
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* Input design */
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+
+/* Make checkbox and radio normal size */
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+}
+
+
+/* Button design */
+button{
+    background-color: #4f8ddf;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+/* Space between buttons */
+button{
+    margin-top: 10px;
+}
